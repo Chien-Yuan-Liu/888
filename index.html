@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人資料網頁</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", "PingFang TC", sans-serif;
+            background-color: #e0f2fe; /* 網頁整體背景維持淺藍色 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: #f5ebe0; /* 學號姓名區塊背景為淺咖啡色 */
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center; /* 文字水平置中 */
+            color: #0066cc;     /* 文字設定為藍色 */
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+            margin: 10px 0;
+        }
+
+        .link-group {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .poem-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+
+        .poem-link:hover {
+            background-color: #004c99;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <h1>個人資料</h1>
+        <p>學號: 90123456</p>
+        <p>姓名: XXXXXXXX</p>
+        <div class="link-group">
+            <a href="poem1.html" class="poem-link">詩的賞析1</a>
+            <a href="poem2.html" class="poem-link">詩的賞析2</a>
+        </div>
+    </div>
+
+</body>
+</html>

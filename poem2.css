@@ -1,0 +1,40 @@
+body {
+    background-color: #fff9c4; /* 整頁背景設為柔和粉黃色 */
+    font-family: "DFKai-SB", "標楷體", "Microsoft JhengHei", serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: red;          /* 詩的標題設為紅色 */
+    font-size: 36pt;     /* 36點字 */
+    margin-bottom: 10px;
+}
+
+.author {
+    color: #5c4033;
+    font-size: 18pt;
+    margin-bottom: 30px;
+}
+
+.poet-img {
+    display: block;
+    margin: 0 auto 30px auto;  /* 頁面中央置中對齊 */
+    width: 200px;              /* 寬度為200px */
+    border: 3px solid #4a2c11; /* 深棕色圖框線(3px) */
+    border-radius: 20px;       /* 四周圓角(半徑20px) */
+}
+
+.poem-content {
+    color: brown;        /* 詩的內容設為棕色 */
+    font-size: 24pt;     /* 24點字 */
+    line-height: 1.8;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 16pt;
+    color: #4a2c11;
+}
